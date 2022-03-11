@@ -1,0 +1,21 @@
+html, body, .centered {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+}
+
+.headline {
+    font-size: 10vw;
+    font-family: "Patua One", cursive;
+    text-shadow:
+    #888888 -1px 1px 0,
+    #888888 -2px 2px 0,
+    #00FF00 -3px 3px 0,
+    #00FF00 -4px 4px 0,
+    #0000FF -5px 5px 0,
+    #0000FF -6px 6px 0;
+}
