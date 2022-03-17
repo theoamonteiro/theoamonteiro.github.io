@@ -1,21 +1,54 @@
-html, body, .centered {
-    height: 100%;
-}
-body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    color: #fff;
+* {
+  border-width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0 auto;
+  gap: 0;
+  font-size: 16px;
 }
 
-.headline {
-    font-size: 10vw;
-    font-family: "Patua One", cursive;
-    text-shadow:
-    #888888 -1px 1px 0,
-    #888888 -2px 2px 0,
-    #00FF00 -3px 3px 0,
-    #00FF00 -4px 4px 0,
-    #0000FF -5px 5px 0,
-    #0000FF -6px 6px 0;
+body {
+  background-image: linear-gradient(135deg, #AEAEAE 0%, #AEAEAE 30%, #ffffff 100%);
+  height: 100vh;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  max-width: 1800px;
+}
+
+main > header {
+}
+
+img.banner {
+  display: block;
+  width: 100%;
+  max-width: 1800px;
+}
+
+img.avatar {
+  display: inline;
+  width: 30%;
+  background-color: white;
+  border-width: 100px;
+  border-color: green;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: -16%;
+}
+
+p.handle {
+  display: inline;
+  width: auto;
+  font-weight: bold;
+  font-size: 4vw;
+  color: gray;
+  float: right;
+  font-family: 'Red Hat Mono', monospace;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
